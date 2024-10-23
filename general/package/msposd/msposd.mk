@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-MSPOSD_SITE = $(call github,openipc,msposd,$(MSPOSD_VERSION))
+MSPOSD_SITE = $(call github,RomanLut,msposd,$(MSPOSD_VERSION))
 MSPOSD_VERSION = HEAD
 
 ifeq ($(OPENIPC_SOC_FAMILY),gk7205v200)
