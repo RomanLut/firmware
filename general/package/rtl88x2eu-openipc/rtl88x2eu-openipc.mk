@@ -6,7 +6,7 @@
 
 ifeq ($(LOCAL_DOWNLOAD),y)
 RTL88X2EU_OPENIPC_SITE_METHOD = git
-RTL88X2EU_OPENIPC_SITE = https://github.com/libc0607/rtl88x2eu-20230815
+RTL88X2EU_OPENIPC_SITE = https://github.com/RomanLut/rtl88x2eu-20230815
 RTL88X2EU_OPENIPC_VERSION = $(shell git ls-remote $(RTL88X2EU_OPENIPC_SITE) HEAD | head -1 | cut -f1)
 else
 RTL88X2EU_OPENIPC_SITE = https://github.com/libc0607/rtl88x2eu-20230815/archive
