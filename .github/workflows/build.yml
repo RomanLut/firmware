@@ -140,7 +140,7 @@ jobs:
           # - {"platform": "gk7205v210", "release": "lite"}
           # - {"platform": "gk7205v300", "release": "lte"}
           - {"platform": "gk7205v300", "release": "fpv"}
-          # - {"platform": "gk7205v300", "release": "rubyfpv"}
+          - {"platform": "gk7205v300", "release": "rubyfpv"}
           # - {"platform": "gk7205v300", "release": "venc"}
           # - {"platform": "gk7205v300", "release": "lite"}
           # - {"platform": "gk7205v300", "release": "ultimate"}
